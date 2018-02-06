@@ -53,7 +53,6 @@ class Car(object):
         else:
             self.tax = 0.12
         self.display_all()
-        return self
     def display_all(self):
         print 'Price: ',self.price,'\nSpeed: ',self.speed,'\nFuel: ',self.fuel,'\nMileage: ',self.milage,'\nTax: ',self.tax,'\n'
         return self
